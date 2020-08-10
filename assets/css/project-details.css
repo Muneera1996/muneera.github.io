@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	text-align: center;
+	background: #AA7E41;
+	color: #FBDBAF;
+	padding: 20px 0;
+	margin-top: 0;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	width: 400px;
+	height: 600px;
+	margin: 15px;
+	transition: transform 1s;
+	border: 5px solid #875D22;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
