@@ -7,8 +7,8 @@ h1 {
 	font-family: fantasy;
 	font-size: 3em;
 	text-align: center;
-	background: #AA7E41;
-	color: #FBDBAF;
+	background: #212931;
+	color: #ef9918;
 	padding: 20px 0;
 	margin-top: 0;
 }
@@ -20,11 +20,11 @@ h1 {
 }
 
 img {
-	width: 400px;
-	height: 600px;
+	width: 300px;
+	height: 500px;
 	margin: 15px;
 	transition: transform 1s;
-	border: 5px solid #875D22;
+	border: 5px solid #212931;
 }
 
 img:hover {
