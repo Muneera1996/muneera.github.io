@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	text-align: center;
+	background: #3762a3;
+	color: #ffffff;
+	padding: 20px 0;
+	margin-top: 0;
+}
+
+.links{
+	font-family: sans-serif;
+    font-size: medium;
+    text-align: center;
+    background: #3762a3;
+    color: #212931;
+    padding: 20px 0;
+    margin-top: 0;
+	display: block;
+
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	width: 300px;
+	height: 500px;
+	margin: 15px;
+	transition: transform 1s;
+	border: 5px solid #212931;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
